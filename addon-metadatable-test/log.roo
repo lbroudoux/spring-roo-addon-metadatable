@@ -1,0 +1,22 @@
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-04-10 14:18:11
+project --topLevelPackage com.github.lbroudoux.roo.addon.metadatable --projectName RooMetadatableTest --java 6
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-04-10 14:18:12
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-04-10 14:18:27
+osgi start --url file:///home/laurent/dev/workspaces/sts-2.8.1.RELEASE/RooMetadatable/target/com.github.lbroudoux.roo.addon.metadatable-0.1.0.BUILD-SNAPSHOT.jar
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+entity jpa --class ~.domain.Tweet
+metadatable setup
+metadatable add --type ~.domain.Tweet
+osgi update --bundleSymbolicName com.github.lbroudoux.roo.addon.metadatable
+test integration
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-04-10 15:03:36
+perform test
+perform test
+perform test
+perform test
+perform test
+perform test
+perform test
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-04-10 15:35:42
+q
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-04-10 15:40:02
