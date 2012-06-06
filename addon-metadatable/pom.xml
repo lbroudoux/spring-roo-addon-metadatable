@@ -7,7 +7,7 @@
     <version>0.1.0.BUILD-SNAPSHOT</version>
     <name>RooMetadatable</name>
     <organization>
-        <name>Your project/company name goes here (used in copyright and vendor information in the manifest)</name>
+        <name>Laurent Broudoux</name>
     </organization>
     <licenses>
         <license>
@@ -16,13 +16,13 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    <description>An add-on created by Spring Roo's addon creator feature.</description>
-    <url>http://www.some.company</url>
+    <description>A Spring Roo addon that allow to add Metadata to domain objects.</description>
+    <url>http://github.com/lbroudoux/spring-roo-addon-metadatable</url>
     <properties>
         <roo.version>1.2.0.RELEASE</roo.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <google.code.project.name>${project.name}</google.code.project.name>
-        <repo.folder>com/github/lbroudoux/roo/addon/metadatable</repo.folder>
+        <repo.folder>repo</repo.folder>
     </properties>
     <repositories>
         <repository>
@@ -192,7 +192,7 @@
                         <Bundle-DocURL>${project.url}</Bundle-DocURL>
                     </instructions>
                     <remoteOBR>true</remoteOBR>
-                    <bundleUrl>httppgp://${google.code.project.name}.googlecode.com/svn/repo/${repo.folder}/${project.artifactId}/${project.version}/${project.artifactId}-${project.version}.jar</bundleUrl>
+                    <bundleUrl>httppgp://raw.github.com/lbroudoux/spring-roo-addon-metadatable/master/${repo.folder}/com/github/lbroudoux/roo/addon/${project.artifactId}/${project.version}/${project.artifactId}-${project.version}.jar</bundleUrl>
                 </configuration>
             </plugin>
             <plugin>
@@ -222,4 +222,15 @@
             </plugin>
         </plugins>
     </build>
+    <scm>
+    	<connection>scm:git:git@github.com:lbroudoux/spring-roo-addon-metadatable.git</connection>
+        <url>scm:git:git@github.com:lbroudoux/spring-roo-addon-metadatable.git</url>
+        <developerConnection>scm:git:git@github.com:lbroudoux/spring-roo-addon-metadatable.git</developerConnection>
+    </scm>
+    <distributionManagement>
+       <repository>
+           <id>repo</id>
+           <url>file:///${basedir}/../repo/</url>
+       </repository>
+    </distributionManagement>
 </project>
