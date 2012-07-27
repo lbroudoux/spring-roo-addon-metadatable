@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>RooMetadatable</name>
+	<name>addon-metadatable</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -10,7 +10,7 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
-      <buildCommand>
+		<buildCommand>
 			<name>org.eclipse.wst.common.project.facet.core.builder</name>
 			<arguments>
 			</arguments>
