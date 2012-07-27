@@ -19,7 +19,7 @@
     <description>A Spring Roo addon that allow to add Metadata to domain objects.</description>
     <url>http://github.com/lbroudoux/spring-roo-addon-metadatable</url>
     <properties>
-        <roo.version>1.2.0.RELEASE</roo.version>
+        <roo.version>1.2.2.RELEASE</roo.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <google.code.project.name>${project.name}</google.code.project.name>
         <repo.folder>repo</repo.folder>
@@ -98,12 +98,6 @@
             <version>${roo.version}</version>
         </dependency>
     </dependencies>
-    <distributionManagement>
-        <repository>
-            <id>Google Code</id>
-            <url>dav:https://${google.code.project.name}.googlecode.com/svn/repo</url>
-        </repository>
-    </distributionManagement>
     <build>
         <extensions>
             <extension>
@@ -223,9 +217,9 @@
         </plugins>
     </build>
     <scm>
-    	<connection>scm:git:git@github.com:lbroudoux/spring-roo-addon-metadatable.git</connection>
-        <url>scm:git:git@github.com:lbroudoux/spring-roo-addon-metadatable.git</url>
-        <developerConnection>scm:git:git@github.com:lbroudoux/spring-roo-addon-metadatable.git</developerConnection>
+    	<connection>scm:git:https://github.com/lbroudoux/spring-roo-addon-metadatable.git</connection>
+        <url>scm:git:https://github.com/lbroudoux/spring-roo-addon-metadatable.git</url>
+        <developerConnection>scm:git:https://github.com/lbroudoux/spring-roo-addon-metadatable.git</developerConnection>
     </scm>
     <distributionManagement>
        <repository>
