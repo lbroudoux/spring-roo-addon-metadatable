@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.lbroudoux.roo.addon</groupId>
+  <artifactId>com.github.lbroudoux.roo.addon.metadatable</artifactId>
+  <versioning>
+    <versions>
+      <version>0.1.0.BUILD-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20120727114314</lastUpdated>
+  </versioning>
+</metadata>
