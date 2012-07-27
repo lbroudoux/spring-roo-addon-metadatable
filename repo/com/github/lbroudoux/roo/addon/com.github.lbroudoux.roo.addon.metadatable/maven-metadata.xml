@@ -3,9 +3,11 @@
   <groupId>com.github.lbroudoux.roo.addon</groupId>
   <artifactId>com.github.lbroudoux.roo.addon.metadatable</artifactId>
   <versioning>
+    <release>0.1.1.BUILD</release>
     <versions>
       <version>0.1.0.BUILD-SNAPSHOT</version>
+      <version>0.1.1.BUILD</version>
     </versions>
-    <lastUpdated>20120727114314</lastUpdated>
+    <lastUpdated>20120727145928</lastUpdated>
   </versioning>
 </metadata>
